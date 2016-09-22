@@ -1,0 +1,8 @@
+## Interface: 70000
+## Title: Void Cultist
+## Author: Cirno
+## Version: 7.0.0
+## Notes: Harken the arrival of the Old Gods!
+## X-Category: Priest
+
+core.lua
