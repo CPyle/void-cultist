@@ -10,16 +10,18 @@ VoidCultist:RegisterEvent("CHAT_MSG_ADDON")
 RegisterAddonMessagePrefix(VCPrefix)
 
 local chants = {
-     [1] = {"Visualize that the seal becomes a gate!", "The seal is broken!"},
-     [2] = {"He is coming! This has been written!", "It has been written!"},
-     [3] = {"The lord of ravens will turn the key.", "The gate is open!"},
-     [4] = {"The last prison weakens.", "The dead sleeper stirs in the depths."},
-     [5] = {"Untouched by time, unmoved by fate.", "The Hour of Twilight approaches, unyielding."},
-     [6] = {"In the land of Ny'alotha there is only sleep.", "Only the mad walk amongst the dreaming."},
-     [7] = {"At the bottom of the ocean even light must die.", "The void consumes."},
-     [8] = {"In the sunken city, he lays dreaming.", "N'Zoth slumbers beneath."},
-     [9] = {"O, discordia!", "O, discordia!"},
-    [10] = {"Oblivion offers solace.", "Take the gift! Take it!"}
+     [1] = {"He is coming! This has been written!", "It has been written!"},
+     [2] = {"The lord of ravens will turn the key.", "The gate to Ny'alotha is open!"},
+     [3] = {"The last prison weakens.", "The dead sleeper stirs in the depths."},
+     [4] = {"Untouched by time, unmoved by fate.", "The Hour of Twilight approaches, unyielding."},
+     [5] = {"In the land of Ny'alotha there is only sleep.", "Only the mad walk amongst the dreaming."},
+     [6] = {"At the bottom of the ocean even light must die.", "The void will consume everything."},
+     [7] = {"In the sunken city, he lays dreaming.", "N'Zoth slumbers beneath."},
+     [8] = {"O, discordia!", "O, discordia!"},
+     [9] = {"Oblivion offers solace.", "Take the gift of oblivion! Take it!"},
+	[10] = {"Have you had the dream again?", "The seven eyes watch from the outside."},
+	[11] = {"The giant rook watches from the dead trees.", "Nothing breathes beneath his shadow."},
+	[12] = {"All places, all things have souls.", "All souls can be devoured."}
 }
 
 function VoidCultist:Chant(msgIndex)
