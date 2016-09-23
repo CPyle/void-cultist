@@ -1,6 +1,6 @@
 local cooldownTime = time()
-local procChance = 0.04
-local cooldown = 20
+local procChance = 0.033
+local cooldown = 30
 local VCPrefix = "VOID_CULTIST"
 
 local VoidCultist = CreateFrame("Frame")
