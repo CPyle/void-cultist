@@ -36,7 +36,7 @@ function VoidCultist:Chant(msgIndex)
     SendChatMessage(msg, "SAY")
     cooldownTime = time()
     if IsAddonMessagePrefixRegistered(VCPrefix) and broadcast then
-        SendAddonMessage(VCPrefix, msgIndex, "RAID")
+        SendAddonMessage(VCPrefix, tostring(msgIndex), "RAID")
     end        
 end
 
